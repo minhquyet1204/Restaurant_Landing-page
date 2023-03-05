@@ -4,7 +4,10 @@ import { newsletterData } from "../data";
 const Newsletter = () => {
   const { title, subtitle, placeholder, btnText } = newsletterData;
   return (
-    <div className="bg-none lg:bg-newsletter lg:bg-cover lg:h-[220px] lg:bg-center lg:px-24 xl:bg-auto">
+    <div
+      id="contact"
+      className="bg-none lg:bg-newsletter lg:bg-cover lg:h-[220px] lg:bg-center lg:px-24 xl:bg-auto"
+    >
       <div className="flex flex-col lg:flex-row justify-between items-center h-full">
         <div className="text-center lg:text-left mb-4">
           <h3 className="text-[26px] font-primary italic text-white capitalize mb-2">

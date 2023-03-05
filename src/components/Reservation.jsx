@@ -14,7 +14,7 @@ const Reservation = () => {
   const [value, setValue] = useState("10:00");
 
   return (
-    <section className="relative top-96 z-30 pb-20 lg:py-[100px]">
+    <section className="relative top-96 z-30 pb-20 lg:py-[100px]" id="table">
       <div className="container mx-auto">
         <motion.div
           variants={staggerContainer}

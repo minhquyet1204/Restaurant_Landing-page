@@ -9,7 +9,7 @@ import { fadeIn, staggerContainer } from "../variants";
 
 const Hero = () => {
   return (
-    <section className="mon-h-[980px] bg-hero bg-cover bg-rihgt">
+    <section className="mon-h-[980px] bg-hero bg-cover bg-rihgt" id="home">
       <Header />
 
       <div className="container mx-auto  min-h-[980px] flex justify-center items-center">

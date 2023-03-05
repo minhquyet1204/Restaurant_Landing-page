@@ -1,6 +1,5 @@
-// import icons
 import { FaYoutube, FaFacebookF, FaInstagram } from "react-icons/fa";
-// import images
+
 import AboutImg from "../src/assets/img/about/plate.png";
 import ModelWhiteImg from "../src/assets/img/model-white.png";
 import ModelBlackImg from "../src/assets/img/model-black.png";
@@ -15,34 +14,35 @@ import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
 import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
 
 export const navData = [
-  { href: "/", name: "home" },
-  { href: "/", name: "about" },
-  { href: "/", name: "menu" },
-  { href: "/", name: "team" },
-  { href: "/", name: "testimonials" },
-  { href: "/", name: "book a table" },
-  { href: "/", name: "contact" },
+  { href: "#home", name: "home" },
+  { href: "#about", name: "about" },
+  { href: "#menu", name: "menu" },
+  { href: "#team", name: "team" },
+  { href: "#testimonials", name: "testimonials" },
+  { href: "#table", name: "book a table" },
+  { href: "#contact", name: "contact" },
 ];
 
 export const heroData = {
   pretitle: "Nothing brings together like",
-  title: "Bistro Cafe",
+  title: "Burger ",
   subtitle:
-    "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ",
+    "Bubby's burger is dedicate to serving the best burgers on the planet, and for the planet. ",
   btnText: "Find out more",
 };
 
 export const socialData = [
-  { href: "/", icon: <FaYoutube /> },
-  { href: "/", icon: <FaFacebookF /> },
-  { href: "/", icon: <FaInstagram /> },
+  { href: "#", icon: <FaYoutube /> },
+  { href: "#", icon: <FaFacebookF /> },
+  { href: "#", icon: <FaInstagram /> },
 ];
 
 export const aboutData = {
   pretitle: "our story",
   title: "who we are",
   subtitle:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus. Placeat vel non quod quis pariatur a aperiam, aliquam adipisci voluptatum voluptatem sit cupiditate dolore natus beatae earum omnis.",
+    "We bring people joy and celebrate the beauty of life on our planet in the most delicious and fun way possible. With indulgent, crafted, plant-based burgers and an uplifting dining experience, we invite you to eat the change you wish to see in the world. Our promise is to continue to be that comfortable environment for you to come and break bread with your friends and family",
+
   btnText: "find out more",
   image: AboutImg,
 };
@@ -57,25 +57,25 @@ export const menuData = {
       image: MenuImg1,
       name: "Chocolate Cake",
       price: "$7.99",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      description: "Caramelized Onion, bubby's source",
     },
     {
       image: MenuImg2,
       name: "Veggie Burger",
       price: "$9.49",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      description: "Plant-Based Patty, Pickles, Green Leaf Lettuce",
     },
     {
       image: MenuImg3,
       name: "King Burger",
       price: "$8.50",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      description: "Roma Tomato, Potato Bun",
     },
     {
       image: MenuImg4,
       name: "Mexican Burger",
       price: "$9.99",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      description: "Pickles, Green Leaf Lettuce , Caramelized Onion",
     },
   ],
 };
@@ -83,9 +83,9 @@ export const menuData = {
 export const teamData = {
   pretitle: "our team",
   title: "meet our chef",
-  sub1: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.",
-  sub2: "Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.",
-  name: "sara peter",
+  sub1: "If you want to become a great chef, you have to work with great chefs. And that's exactly what I did.",
+  sub2: "Chefs are nutters. They're all self-obsessed, delicate, dainty, insecure little souls and absolute psychopaths. Every last one of them.",
+  name: "Sara peter",
   occupation: "executive chef",
   signatureImg: SignatureImg,
   chefImg: ChefImg,
@@ -98,21 +98,21 @@ export const testimonialData = {
   slider: [
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "WOW!!! What an outstanding dinner you prepared at the Johnstons on Friday evening!!! It was an honor for me to be invited and experience firsthand your incredible culinary gift! MERCI BEAUCOUP seems soooooooo inadequate!",
       image: Avatar1,
       name: "Rick Thompson",
       occupation: "CEO of Delightful",
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "WOW!!! What an outstanding dinner you prepared at the Johnstons on Friday evening!!! It was an honor for me to be invited and experience firsthand your incredible culinary gift! MERCI BEAUCOUP seems soooooooo inadequate!",
       image: Avatar2,
       name: "John Doe",
       occupation: "CEO of Delightful",
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "WOW!!! What an outstanding dinner you prepared at the Johnstons on Friday evening!!! It was an honor for me to be invited and experience firsthand your incredible culinary gift! MERCI BEAUCOUP seems soooooooo inadequate!",
       image: Avatar3,
       name: "Henry A.",
       occupation: "CEO of Delightful",
@@ -138,8 +138,8 @@ export const newsletterData = {
 export const footerData = {
   contact: {
     title: "contact location",
-    address: "HA DONG , HA NOI",
-    phone: "0934497137",
+    address: "Sarasota , FL",
+    phone: "0001010001",
   },
   hours: {
     title: "working hours",

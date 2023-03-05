@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Nav from "../components/Nav";
 import Socials from "../components/Socials";
 
-import logoWhite from "../assets/img/header/logo-white.png";
+import logoWhite from "../assets/img/header/images.png";
 
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn } from "../variants";
@@ -89,9 +89,9 @@ const Header = () => {
             variants={fadeIn("down", "tween", 1.2, 1.4)}
             className="lg:ml-20"
           >
-            <a href="/">
+            <a href="#home">
               <img
-                className={`${
+                className={` ${
                   isActive ? "w-[90px] h-[90px ]" : "w-[110px] h-[110px ]"
                 }`}
                 src={logoWhite}

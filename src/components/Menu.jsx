@@ -6,7 +6,7 @@ import { fadeIn, staggerContainer } from "../variants";
 
 const Menu = () => {
   return (
-    <section className=" min-h-[780px]">
+    <section className=" min-h-[780px]" id="menu">
       <div className="bg-menu  h-[780px] absolute w-full max-w-[1800px] -z-0"></div>
 
       <div className="relative z-10 top-72 lg:top-52 ">

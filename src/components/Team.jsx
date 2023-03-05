@@ -6,7 +6,10 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 const Team = () => {
   return (
-    <section className="relative top-96 z-10 lg:top-[480px] min-h-[720px]">
+    <section
+      className="relative top-96 z-10 lg:top-[480px] min-h-[720px]"
+      id="team"
+    >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-x-[120px] items-center lg:items-start">
           <motion.div
@@ -29,7 +32,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div className="flex justify-center lg:justify-start mb-6 lg:mb-0">
+            <div className="flex justify-center lg:justify-start mb-6 lg:mb-0 ">
               <img src={teamData.signatureImg} alt="" />
             </div>
           </motion.div>

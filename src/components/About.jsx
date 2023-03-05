@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn, plateVariants, staggerContainer } from "../variants";
 const About = () => {
   return (
-    <section className="min-h-[620px]">
+    <section className="min-h-[620px]" id="about">
       <div className="container mx-auto min-h-full">
         <motion.div
           variants={staggerContainer}
