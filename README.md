@@ -1,6 +1,6 @@
 # Introduction
 
-- This is Restaurant landing page project with React , Framer Motion
+- This is Restaurant landing page project with React ,Tailwindcss , Framer Motion
 
 # Page
 
@@ -11,4 +11,5 @@
 Built using:
 
 - Front-end library: React
+- CSS framework: Tailwindcss
 - CSS animations library: Framer Motion
